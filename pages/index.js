@@ -98,11 +98,11 @@ export default function Home() {
         src={bg}
         alt={"background"}
       />
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-sans text-5xl items-center justify-center font-bold pt-5">
+      <div className="mt-16 flex flex-col items-center justify-center mb-6">
+        <h1 className="font-sans text-5xl items-center justify-center font-bold pt-5 text-white">
           Code Translator
         </h1>
-        <h2 className="font-sans text-xl mt-5 justify-center text-slate-600 mb-10">
+        <h2 className="font-sans text-xl mt-5 justify-center text-slate-600 mb-10 text-white">
           Translate your code into other languages with just one click.
         </h2>
       </div>
@@ -116,7 +116,7 @@ export default function Home() {
         />
         <button
           disabled={loading}
-          className="bg-[#C53AAE] border-white p-3 mt-40 flex justify-center items-center rounded-lg text-white font-semibold w-[150px] h-[40px]"
+          className="bg-[#000000] border-black border-4 mt-40 flex justify-center items-center rounded-lg text-white font-semibold w-[150px] h-[50px]"
           onClick={handleTranslate}
         >
           {loading ? `Translating...` : `Translate`}
