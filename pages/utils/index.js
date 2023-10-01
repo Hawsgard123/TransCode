@@ -71,8 +71,8 @@ export const OpenAIstream = async (inputLang, outputLang, inputCode) => {
     url: "https://chatgpt-api8.p.rapidapi.com/",
     headers: {
       "content-type": "application/json",
-      "X-RapidAPI-Key": "757d784633msh88c370e7c6558b3p1e0451jsnf69e04e01a0d",
-      "X-RapidAPI-Host": "chatgpt-api8.p.rapidapi.com",
+      "X-RapidAPI-Key": "#",
+      "X-RapidAPI-Host": "#",
     },
     data: [
       {
