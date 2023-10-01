@@ -1,8 +1,8 @@
 import endent from "endent"
 require("dotenv").config()
 
-const apiKey = "757d784633msh88c370e7c6558b3p1e0451jsnf69e04e01a0d"
-const host = "chatgpt-api8.p.rapidapi.com"
+const apiKey = "#"
+const host = "#"
 
 const createPrompt = (inputLang, outputLang, inputCode) => {
   if (inputLang === "Natural Language") {
